@@ -8,5 +8,5 @@ def read_file_with_pandas(filename):
   return df
 import pandas as pd
 def column_value(df, column_name):
-    pass
+    return df[column_name].values
 
