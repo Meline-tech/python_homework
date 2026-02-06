@@ -1,3 +1,5 @@
+def min_max(arr)    :
+    return np.min(arr), np.max(arr)
 import numpy as np
 def array_mean(arr):
     return  np.mean(arr)
