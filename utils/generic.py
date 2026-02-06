@@ -1,3 +1,3 @@
 import numpy as np
-def arr_mean(n):
-    pass
+def array_mean(arr):
+    return  np.mean(arr)
