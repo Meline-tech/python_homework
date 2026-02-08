@@ -10,8 +10,8 @@ def read_file_with_pandas(filename):
   return df
 def column_values(df, column_name):
     return df[column_name]
-file_name="/content/sample_data/mnist_train_small.csv"
-col_name="6"
+file_name=input("Input the file path")
+col_name=input("input the column name")
 df=read_file_with_pandas(file_name)
 col_data=column_values(df, col_name)
 maximum=min_max(col_data)
